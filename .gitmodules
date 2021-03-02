@@ -1,0 +1,6 @@
+[submodule "my_plugins/indentLine"]
+	path = my_plugins/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "my_plugins/onedark.vim"]
+	path = my_plugins/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
