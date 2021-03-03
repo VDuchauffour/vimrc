@@ -16,6 +16,8 @@ set nuw=4
 set mouse=a
 set clipboard=unnamed
 colorscheme onedark
+set updatetime=100
+
 Plug 'Yggdroot/indentLine'
 
 if !has('gui_running')
