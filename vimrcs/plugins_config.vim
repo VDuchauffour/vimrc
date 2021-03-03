@@ -138,7 +138,7 @@ let g:lightline = {
       \   'fugitive': '(exists("*FugitiveHead") && ""!=FugitiveHead())'
       \ },
       \ 'separator': { 'left': ' ', 'right': ' ' },
-      \ 'subseparator': { 'left': ' ', 'right': ' ' }
+      \ 'subseparator': { 'left': '|', 'right': '|' }
       \ }
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

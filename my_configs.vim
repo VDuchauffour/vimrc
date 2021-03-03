@@ -11,6 +11,13 @@ if (has("autocmd") && !has("gui_running"))
   augroup END
 endif
 
+" Add Git added, modified and removed lines in status line
+"function! GitStatus()
+"  let [a,m,r] = GitGutterGetHunkSummary()
+"  return printf('+%d ~%d -%d', a, m, r)
+"endfunction
+
+set statusline+=%{GitStatus()}
 set number
 set nuw=4
 set mouse=a
