@@ -17,6 +17,12 @@ function! GitStatus()
   return printf('+%d ~%d -%d', a, m, r)
 endfunction
 
+"Mode Settings
+
+let &t_SI.="\e[5 q" "SI = INSERT mode
+let &t_SR.="\e[4 q" "SR = REPLACE mode
+let &t_EI.="\e[1 q" "EI = NORMAL mode (ELSE)
+
 set number
 set nuw=4
 set mouse=a
